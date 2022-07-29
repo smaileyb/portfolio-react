@@ -65,21 +65,22 @@ header {
 }
 
 /* Media Queries - Medium */
-@media screen and (max-width: 1024px){
-  header {
-    height: 68vh;
-  }
-  
-}
-
-/* Media Queries - Small */
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1024px) {
   header {
     height: 100vh;
   }
 
-  .header__socials, .scroll__down {
+}
+
+/* Media Queries - Small */
+@media screen and (max-width: 600px) {
+  header {
+    height: 100vh;
+  }
+
+  .header__socials,
+  .scroll__down {
     display: none;
   }
-  
+
 }
